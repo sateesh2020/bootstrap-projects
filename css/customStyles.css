@@ -1,0 +1,31 @@
+body{
+	width: 100%;
+}
+/*Header Styles*/
+.header .navbar{
+	background: none transparent;
+}
+
+.header .navbar-default{
+	border-color: transparent;
+	box-shadow: none;
+}
+.header .navbar-nav>.active>a {
+	background-image: none;
+	background-color: transparent;
+	box-shadow: none;
+	color: #FFF;
+	border-bottom: 2px solid #09F;
+}
+.header .navbar-default .navbar-nav > li > a:hover {
+	background-image: none;
+	background-color: transparent;
+	box-shadow: none;
+	color: #FFF;
+	border-bottom: 2px solid #09F;
+}
+.mainHero{
+	background-image: url(../images/heroImage.jpg);
+	background-attachment: fixed;
+	height:90vh; 
+}
