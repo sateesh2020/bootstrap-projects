@@ -1,11 +1,18 @@
 body{
 	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	background-color: rgba(204,204,204,0.5);
 }
 /*Header Styles*/
 .header .navbar{
 	background: none transparent;
 }
-
+.brand{
+	color: #FFF;	
+}
+.navbar-brand .version{
+	color: #0099FF;	
+}
 .header .navbar-default{
 	border-color: transparent;
 	box-shadow: none;
@@ -25,7 +32,20 @@ body{
 	border-bottom: 2px solid #09F;
 }
 .mainHero{
-	background-image: url(../images/heroImage.jpg);
+	background-image: url(../images/lollipop.jpg);
+	background-repeat: no-repeat;
+	background-position: center 0px;
 	background-attachment: fixed;
-	height:90vh; 
+	height:100vh; 
+}
+.hero-details{
+	background-color: #03a9f4;
+	margin-top: 80vh;
+}
+.hero-details .wrapper{
+	padding: 20px 0px;
+}
+
+.font-white{
+	color: #FFF;
 }
