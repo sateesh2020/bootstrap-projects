@@ -1,11 +1,14 @@
 body{
 	width: 100%;
 	font-family: 'Roboto', sans-serif;
-	background-color: rgba(204,204,204,0.5);
+	
 }
 /*Header Styles*/
 .header .navbar{
 	background: none transparent;
+}
+.header .container{
+	padding: 10px 0px;
 }
 .brand{
 	color: #FFF;	
@@ -17,13 +20,7 @@ body{
 	border-color: transparent;
 	box-shadow: none;
 }
-.header .navbar-nav>.active>a {
-	background-image: none;
-	background-color: transparent;
-	box-shadow: none;
-	color: #FFF;
-	border-bottom: 2px solid #09F;
-}
+.header .navbar-nav>.active>a,
 .header .navbar-default .navbar-nav > li > a:hover {
 	background-image: none;
 	background-color: transparent;
@@ -32,20 +29,46 @@ body{
 	border-bottom: 2px solid #09F;
 }
 .mainHero{
-	background-image: url(../images/lollipop.jpg);
+	background-image: url(../images/andriod-project/lollipop.jpg);
 	background-repeat: no-repeat;
 	background-position: center 0px;
 	background-attachment: fixed;
-	height:100vh; 
+	height:100vh;
+	margin-bottom: 8px; 
 }
 .hero-details{
 	background-color: #03a9f4;
 	margin-top: 80vh;
 }
 .hero-details .wrapper{
-	padding: 20px 0px;
+	padding: 20px 5px;
+}
+.features{
+	background-color: #FFF;
 }
 
+.features .flex-video{
+	width: 100%;
+	height: auto;
+}
+.features .wrapper{
+	text-align: center;
+	padding: 85px 0px; 
+}
+.features .wrapper-two{
+	padding-top:80px;
+} 
+/* media for mobiles*/
+.img-feature{
+	
+}
+
+hr.divider{
+
+}
 .font-white{
 	color: #FFF;
+}
+.font-grey{
+	color: #757575;
 }
